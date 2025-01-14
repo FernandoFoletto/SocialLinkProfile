@@ -16,8 +16,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/css-bem-5NkW7eifIS](https://your-solution-url.com)
-- Live Site URL: [https://fernandofoletto.github.io/SocialLinkProfile/](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/css-bem-5NkW7eifIS](https://www.frontendmentor.io/solutions/css-bem-5NkW7eifIS)
+- Live Site URL: [https://fernandofoletto.github.io/SocialLinkProfile/](https://fernandofoletto.github.io/SocialLinkProfile/)
 
 
 ### Built with
