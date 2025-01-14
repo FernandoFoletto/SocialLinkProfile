@@ -1,0 +1,130 @@
+
+:root{
+--green: hsla(75, 71%, 45%, 0.75);
+--white: hsl(0, 0%, 100%);
+
+--grey700: hsl(0, 0%, 20%);
+--grey800: hsl(0, 0%, 12%);
+--grey900: hsl(0, 0%, 8%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%;
+}
+@media (max-width: 375px){
+  html{
+    font-size: 50%;
+  }
+}
+
+body{
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif, Arial;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  color: var(--white);
+}
+
+.container{
+  background-color: var(--grey900);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  max-width: 100%;
+  background-color: var(--grey800);
+  padding: 4rem;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 1.6rem;
+}
+
+.profile-card__owner-img{
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.profile-card__owner-name{
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.profile-card__owner-location{
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--green);
+}
+
+.profile-card__owner-roles{
+  margin-bottom: 2.2rem;
+  color: var(--white);
+}
+
+.socials{
+  list-style: none;
+}
+
+.socials__link, .socials__link:visited {
+  text-decoration: none;
+  background-color: var(--grey700);
+  display: block;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  color: white;
+  width: 30rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.socials li{
+  margin-bottom: 1.4rem;
+}
+
+.socials__link a{
+  text-decoration: none;
+  color: white;
+}
+
+.socials__link:hover{
+  background-color: var(--green);
+}
+
+
+.attribution{
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: var(--grey700);
+  padding: 4rem;
+}
+
+
+
+.attribution > *{
+  text-decoration: none;
+  color: white;
+}
+
+.attribution > a{
+  color: var(--green);
+  text-decoration: underline;
+}
+
+
+
+
